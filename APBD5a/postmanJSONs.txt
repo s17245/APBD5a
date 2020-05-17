@@ -1,0 +1,24 @@
+Zad1.
+
+http://localhost:59610/api/enrollments
+
+{
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+
+
+
+Zad2.
+
+http://localhost:59610/api/enrollments/promotions
+
+{
+"Studies": "IT",
+"Semester": 1
+}
+
+

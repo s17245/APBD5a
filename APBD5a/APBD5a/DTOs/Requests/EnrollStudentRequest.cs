@@ -10,16 +10,16 @@ namespace APBD5a.DTOs.Requests
 
         public string Email { get; set; }
 
-        [Required(ErrorMessage ="Musisz podać imię")]
+        [Required(ErrorMessage = "Musisz podać imię")]
         [MaxLength(100)]
         public string FirstName { get; set; }
 
         [Required]
         [MaxLength(100)]
         public string LastName { get; set; }
-        
+
         [Required]
-        public DateTime Birthdate { get; set; }
+        public string BirthDate { get; set; }
 
         [Required]
         public string Studies { get; set; }
