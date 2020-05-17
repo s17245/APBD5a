@@ -1,0 +1,89 @@
+/api/promotionsdate: 17.05.2020 23:00:28method: GET  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+/api/studentsdate: 17.05.2020 23:04:22method: GET  
+
+/api/studentsdate: 17.05.2020 23:04:26method: GET  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+
+/api/studentsdate: 17.05.2020 23:04:28method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+
+/api/enrollmentsdate: 17.05.2020 23:04:36method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+
+/api/enrollmentsdate: 17.05.2020 23:04:40method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+
+/api/enrollmentsdate: 17.05.2020 23:04:48method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+
+}
+
+/api/enrollmentsdate: 17.05.2020 23:05:03method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+
+}
+
+/api/enrollmentsdate: 17.05.2020 23:05:06method: GET  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+
+}
+
+/api/studentsdate: 17.05.2020 23:05:12method: GET  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+
+}
+
+/api/studentsdate: 17.05.2020 23:05:15method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+
+}
+
+/api/studentsdate: 17.05.2020 23:05:18method: POST  {
+"IndexNumber": "s1234",
+"FirstName": "Andrzej",
+"LastName": "Malewski",
+"BirthDate": "30.03.1993",
+"Studies": "IT"
+}
+

@@ -10,6 +10,7 @@ namespace APBD5a.Controllers
 {
     [ApiController]
     [Route("api/students")]
+    //[Route("api/[controller]")]
     public class StudentsController : ControllerBase
     {
         private IDbService _dbService;
@@ -25,11 +26,11 @@ namespace APBD5a.Controllers
             return Ok(_dbService.GetStudents());
         }
 
-        [HttpGet("{id}")]
-        public IActionResult GetEnrollment(string id)
-        {
-            return Ok(_dbService.GetEnrollment(id));
-        }
+        //[HttpGet("{id}")]
+        //public IActionResult GetEnrollment(string id)
+        //{
+        //    return Ok(_dbService.GetEnrollment(id));
+        //}
 
     }
 }

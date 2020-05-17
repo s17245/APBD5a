@@ -11,5 +11,7 @@ namespace APBD5a.Models
         public string Studies { get; set; }
         public int Semester { get; set; }
 
+        public int IdStudent { get; set; }
+
     }
 }

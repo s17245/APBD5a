@@ -112,6 +112,7 @@ namespace APBD5a.Service
                     {
                         transaction.Rollback();
                         response.dtoResponse = "Student z takim numerem indeksu istnieje już w bazie.";
+                        response.dtoResponse = ex.Message;
                     }
                 }
                 catch (SqlException exc)
@@ -182,5 +183,40 @@ namespace APBD5a.Service
                 return response;
             }
         }
+
+
+        public Student GetStudent(string index)
+        {
+            using (SqlConnection connectionSql = new SqlConnection(ConString))
+            using (SqlCommand sqlCommand = new SqlCommand())
+            {
+                sqlCommand.Connection = connectionSql;
+                sqlCommand.CommandText = "SELECT IndexNumber from Student WHERE IndexNumber=@Index";
+                sqlCommand.Parameters.AddWithValue("Index", index);
+
+                connectionSql.Open();
+                
+                var student = new Student();
+                
+                SqlDataReader sqlRead = sqlCommand.ExecuteReader();
+
+                if (sqlRead.Read())
+                {
+                    student.IndexNumber = sqlRead["IndexNumber"].ToString();
+                    student.FirstName = sqlRead["FirstName"].ToString();
+                    student.LastName = sqlRead["LastName"].ToString();
+                    student.BirthDate = sqlRead["BirthDate"].ToString().Substring(0,8);
+                    student.Studies = sqlRead["IdEnrollment"].ToString();
+                    return student;
+                    
+                }
+                else
+                {
+                    return null;
+                }
+            }
+        }
     }
+
+
 }
