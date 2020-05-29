@@ -22,7 +22,7 @@ namespace APBD5a.Models
             set;
         }
 
-        public DateTime StartDate
+        public String StartDate
         {
             get;
             set;

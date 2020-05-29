@@ -66,7 +66,7 @@ namespace APBD5a.DAL
                     enrollment.IdEnrollment = Int32.Parse(readSql["IdEnrollment"].ToString());
                     enrollment.Semester = Int32.Parse(readSql["Semester"].ToString());
                     enrollment.IdStudy = Int32.Parse(readSql["IdStudy"].ToString());
-                    enrollment.StartDate = Convert.ToDateTime(readSql["StartDate"]);//readSql["StartDate"].ToString().Substring(0, 8);
+                    enrollment.StartDate = readSql["StartDate"].ToString().Substring(0, 8);// int.Parse(readSql["StartDate"].ToString());//readSql["StartDate"].ToString().Substring(0, 8);
 
                     list.Add(enrollment);
                 }

@@ -87,3 +87,19 @@
 "Studies": "IT"
 }
 
+/api/studentsdate: 29.05.2020 19:37:37method: GET  
+
+/favicon.icodate: 29.05.2020 19:37:37method: GET  
+
+/api/studentsdate: 29.05.2020 20:11:05method: GET  
+
+/favicon.icodate: 29.05.2020 20:11:05method: GET  
+
+/api/studentsdate: 29.05.2020 20:34:02method: GET  
+
+/favicon.icodate: 29.05.2020 20:34:02method: GET  
+
+/api/studentsdate: 29.05.2020 20:44:58method: GET  
+
+/favicon.icodate: 29.05.2020 20:44:58method: GET  
+

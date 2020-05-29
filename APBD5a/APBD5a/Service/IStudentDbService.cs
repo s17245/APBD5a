@@ -1,10 +1,6 @@
 ﻿using APBD5a.DTOs.Requests;
 using APBD5a.DTOs.Responses;
 using APBD5a.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace APBD5a.Service
 {
@@ -12,9 +8,12 @@ namespace APBD5a.Service
     {
         EnrollStudentResponse EnrollStudent(EnrollStudentRequest request);
 
-        PromoteStudentResponse PromoteStudents(PromoteStudentRequest request);
+        Enrollment PromoteStudents(PromoteStudentRequest request);
 
         Student GetStudent(string index);
-        
+
+        LoginResponse LoginStudent(string login, string haslo);
+        LoginResponse RefreshToken(string refToken);
+        Enrollment PromoteStudents(int semester, string studies);
     }
 }
